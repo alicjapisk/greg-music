@@ -9,6 +9,7 @@
   <link href="./dist/output.css" rel="stylesheet">
   <link href="./dist/glide.core.min.css" rel="stylesheet">
   <link href="./dist/glide.theme.min.css" rel="stylesheet">
+
 </head>
 
 <body class="bg-white">
@@ -86,13 +87,13 @@
     })
   </script>
   <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-    <div class="lg:container lg:mx-auto text-center mx-10">
+    <div class="lg:container lg:mx-auto text-center">
       <div class="relative">
-        <div class="flex justify-center lg:pt-24 lg:pb-18 lg:px-0 md:pt-32 md:pb-28 md:px-10 pb-20 mx-10 pt-20">
-          <div class="flex md:flex-row text-gray-100 flex-col w-128">
+        <div class="flex justify-center lg:pt-24 lg:px-0 md:pt-32 md:px-10 lg:pb-28 mx-10 pt-20 pb-10">
+          <div class="flex lg:flex-row text-gray-100 flex-col w-128 lg:gap-36 gap-10">
             <!-- tekst 1 segmentu -->
-            <div class="text-left z-10 md:w-112 ">
-              <h1 class="md:text-6xl text-4xl pb-4 font-bold leading-12 ">
+            <div class="text-left z-10 md:w-112">
+              <h1 class="md:text-6xl text-4xl pb-4 font-bold leading-12">
                 DOSKONAŁE DOŚWIADCZENIE KLIENTA
               </h1>
               <div class="leading-9 text-lg">
@@ -101,14 +102,35 @@
                 </p>
               </div>
               <!-- przyciski -->
-              <div class="flex flex-col">
-                <button
-                  class="bg-gradient-to-t from-gray-800 to-purple-700 hover:bg-gradient-to-b hover:from-purple-700 hover:to-gray-800 hover:via-gray-800 hover:shadow-lg text-white font-bold py-6 px-8 rounded-full mt-7 mr-5 text-base scale-100 hover:scale-110 ease-in duration-200 mb-3">POZNAJ
-                  MOŻLIWOŚCI</button>
-                <button
-                  class="border-2 text-white font-bold py-6 px-8 rounded-full mt-5 mr-5 text-base scale-100 hover:scale-110 ease-in duration-200 mb-3">POPROŚ
-                  O WIĘCEJ INFORMACJI</button>
+              <div class="flex flex-col gap-5">
+                <a href="#_"
+                  class="relative inline-flex items-center justify-start px-6 py-3 mt-5 overflow-hidden font-medium transition-all bg-white rounded-full hover:bg-white group">
+                  <span
+                    class="w-48 h-48 rounded rotate-[-40deg] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-12 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                  <span
+                    class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white">POZNAJ
+                    MOZLIWOŚCI</span>
+                </a>
+
+                <a href="#_"
+                  class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 borderwhite rounded-full shadow-md group">
+                  <span
+                    class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-transparent group-hover:translate-x-0 ease">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                  </span>
+                  <span
+                    class="absolute flex items-center justify-left w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease ml-9">POPROŚ
+                    O WIĘCEJ INFORMACJI</span>
+                  <span class="relative invisible">Button Text</span>
+                </a>
               </div>
+            </div>
+            <div>
+              <img src="./img/music2.png" alt="icon">
             </div>
           </div>
         </div>
@@ -119,7 +141,7 @@
   <div class="lg:container lg:mx-auto text-center">
     <p class="md:text-2xl text-xl pt-16 text-gray-700">Pełny zakres</p>
     <h2 class="md:text-4xl text-3xl mt-2 text-gray-700 mx-10"><b>Rozwiązania digitalowe</b></h2>
-    <p class="md:text-xl text-lg pt-4 text-gray-700 mx-10">
+    <p class="md:text-xl text-base text-center pt-4 text-gray-700 mx-10">
       Eksperci muzyczni, artyści digitalowi, twórcy contentu i mistrzowie obsługi klienta – wszyscy zmotywowani, by
       wnieść świeże spojrzenie do każdego projektowanego Doświadczenia Klienta. Pełne sukcesów dziedzictwo wspierane
       przez globalną sieć serwisową jest najlepszym świadectwem o naszej pozycji rynkowej. Sukces zawdzięczamy naszej
@@ -127,8 +149,8 @@
     <div class="flex justify-center mx-10">
       <div class="grid lg:grid-cols-3 my-8 md:grid-cols-2 grid-cols-1 gap-8 text-gray-550 w-128">
         <!-- 1 tile -->
-        <div
-          class="border-none shadow-3xl text-center leading-8 basis-1/2 flex flex-col justify-center items-center relative scale-100 hover:scale-105 ease-in duration-200">
+        <a href="music.html" class="border-none shadow-3xl text-center leading-8 basis-1/2 flex flex-col justify-center items-center
+          relative scale-100 hover:scale-105 ease-in duration-200">
 
           <img class="rounded-xl" src="./img/background4.jpg" alt="pic1">
 
@@ -138,7 +160,8 @@
             </p>
             <p>Znajdź swój dźwięk. Mood ma idealne rozwiązanie muzyczne dla Twojej marki i budżetu.</p>
           </div>
-        </div>
+        </a>
+
         <!-- 2 tile -->
         <div
           class="border-none shadow-3xl text-center leading-8 basis-1/2 flex flex-col justify-center items-center relative scale-100 hover:scale-105 ease-in duration-200">
@@ -194,13 +217,19 @@
         </div>
         <!-- 6 tile -->
         <div
-          class="border-none shadow-3xl text-left leading-8 basis-1/2 flex flex-col justify-center items-center md:pl-4 pl-0 pt-2">
-          <div class="text-gray-700 md:text-3xl text-2xl font-bold">
-            <p>Skontaktuj się z nami już dziś, aby dowiedzieć się, co nasze rozwiązania mogą zrobić dla Twojej firmy.
-            </p>
-            <button
-              class="bg-gradient-to-t from-gray-800 to-purple-700 hover:bg-gradient-to-b hover:from-purple-700 hover:to-gray-800 hover:via-gray-800 hover:shadow-lg text-white font-bold py-6 px-8 rounded-full mt-7 mr-5 text-base scale-100 hover:scale-110 ease-in duration-200 mb-3">Skontaktuj
-              się z nami!</button>
+          class="border-none shadow-3xl md:text-left text-center leading-8 basis-1/2 flex flex-col justify-center md:items-start items-center md:pl-4 pl-0 pt-2">
+          <p class="text-gray-700 md:text-3xl text-2xl font-bold">Skontaktuj się z nami już dziś, aby dowiedzieć się, co
+            nasze rozwiązania mogą zrobić dla Twojej firmy.
+          </p>
+          <div class="flex flex-col">
+            <a href="#_"
+              class="relative inline-flex items-center justify-start px-6 py-3 mt-5 overflow-hidden font-medium transition-all bg-white rounded-full hover:bg-white group border-2 border-pink-500 hover:border-transparent">
+              <span
+                class="w-48 h-48 rounded rotate-[-40deg] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-14 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+              <span
+                class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white">Skontaktuj
+                się z nami!</span>
+            </a>
           </div>
         </div>
       </div>
@@ -210,17 +239,18 @@
   <div class="lg:container lg:mx-auto text-center">
     <div class="relative">
       <div class="flex justify-center lg:pt-20 lg:pb-20 lg:px-0 md:pt-32 md:pb-28 md:px-10 pb-10 mx-10 pt-10">
-        <div class="flex lg:flex-row flex-col w-128">
+        <div class="flex lg:flex-row flex-col w-128 gap-10">
           <!-- tekst 1 segmentu -->
-          <div class="text-left z-10 md:w-114 basis-1/2 pr-10">
+          <div class="md:text-left text-center z-10 md:w-114 basis-1/2">
             <div class="md:text-6xl text-4xl pb-4 leading-12">
-              <h2 class="md:text-7xl text-5xl font-bold leading-12 pb-3">O MOOD MEDIA</h2>
-              <p class="text-lg pb-2 text-red-700">
+              <h2 class="md:text-7xl text-4xl font-bold leading-12 pb-3">O MOOD MEDIA</h2>
+              <p
+                class="text-lg pb-2 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-semibold">
                 ŚWIATOWY LIDER W BUDOWIE DOŚWIADCZEŃ KLIENTA
               </p>
-              <p class="md:text-lg text-base leading-7">
+              <p class="md:text-lg text-base leading-7 text-left">
                 Mood Media to światowy lider w dziedzinie rozwiązań mediowych ukierunkowanych na rozwój Doświadczenia
-                Klienta dedykowanych dla sklepów . Wzmacniamy więzi emocjonalne powstałe między markami a konsumentami
+                Klienta dedykowanych dla sklepów. Wzmacniamy więzi emocjonalne powstałe między markami a konsumentami
                 dzięki zastosowaniu odpowiedniej mieszanki rozwiązań wizualnych, dźwiękowych, zapachowych i systemowych.
                 Każdego dnia docieramy do ponad 150 milionów konsumentów za pośrednictwem ponad 500 000 punktów w ponad
                 100 krajach na świecie.
@@ -228,7 +258,7 @@
             </div>
           </div>
           <div class="basis-1/2">
-            <img src="./img/charlesdeluvio-Lks7vei-eAg-unsplash.jpg" alt="working people" class="rounded-xl">
+            <img src="./img/convertkit-RvPiAVE-zWo-unsplash.jpg" alt="working people" class="rounded-xl">
           </div>
         </div>
       </div>
@@ -247,7 +277,7 @@
                   <span class="text-black">NIESKOŃCZONE MOŻLIWOŚCI.</span>
                 </h1>
               </div>
-              <div class="leading-7 text-white md:text-lg text-base">
+              <div class="leading-7 text-white text-left md:text-lg text-base">
                 <p>Pożegnaj się z wieloma dostawcami i panelami administracyjnymi. Oto Harmony, platforma Brand
                   Experience nowej generacji. To kompleksowe rozwiązanie brandingowe obsługujące obszary wizualny,
                   dzwiękowy, zapachowy, społecznościowy i systemowy. Zarządzanie mediami w sklepie nigdy nie było tak
@@ -256,10 +286,24 @@
                 </p>
               </div>
               <!-- przyciski -->
-              <div class="flex flex-row">
-                <button
-                  class="border-2 text-white font-bold py-6 px-8 rounded-3xl mt-7 mr-5 text-base scale-100 hover:scale-110 ease-in duration-200 mb-3">DOWIEDZ
-                  SIĘ WIĘCEJ</button>
+
+              <div class="flex flex-col mt-5">
+                <a href="#_"
+                  class="relative inline-flex items-center justify-center  p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 borderwhite rounded-full shadow-md group">
+                  <span
+                    class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-transparent group-hover:translate-x-0 ease">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                  </span>
+                  <span
+                    class="absolute flex items-center justify-left w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease ml-9">POPROŚ
+                    O WIĘCEJ INFORMACJI</span>
+                  <span class="relative invisible">Button Text</span>
+                </a>
+                </a>
               </div>
             </div>
             <div>
@@ -293,9 +337,9 @@
               </div>
             </div>
             <div
-              class="flex flex-col items-center xl:flex-row xl:justify-center xl:text-center lg:relative px-16 py-3 text-center">
+              class="flex flex-col items-center xl:flex-row xl:justify-center xl:text-center lg:relative md:px-16 px-0 py-3 text-justify">
               <div class="sm:text-center">
-                <p class="px-10 pb-16 text-xl italic text-[#293a40]">„Wybraliśmy Mood Media, ponieważ system CMS
+                <p class="px-10 pb-16 text-lg italic text-[#293a40]">„Wybraliśmy Mood Media, ponieważ system CMS
                   (Harmony)
                   spełnia wszystkie nasze wymagania, jeśli chodzi o elastyczność i proaktywne zarządzanie contentem w
                   sklepie. Harmony to również dobry kompromis pomiędzy kosztem a funkcjonalnością, co potwierdza fakt,
@@ -323,9 +367,9 @@
               </div>
             </div>
             <div
-              class="flex flex-col items-center xl:flex-row xl:justify-center xl:text-left lg:relative px-16 py-3 text-center">
+              class="flex flex-col items-center xl:flex-row xl:justify-center xl:text-left lg:relative md:px-16 px-0 py-3 text-justify">
               <div class="sm:text-center">
-                <p class="px-10 pb-16 text-xl italic text-[#293a40]">„Dzięki zastosowaniu marketingu zapachowego w
+                <p class="px-10 pb-16 text-lg italic text-[#293a40]">„Dzięki zastosowaniu marketingu zapachowego w
                   głównym
                   wejściu, nasi goście i pracownicy, wchodząc do hubu czują się odprężeni, co odzwierciedla atmosferę,
                   którą chcemy tworzyć w Microsoft. Muzyka w tle również sprawia, że ludzie czują się szczęśliwsi i
@@ -349,10 +393,11 @@
               </div>
             </div>
             <div
-              class="flex flex-col items-center xl:flex-row xl:justify-center xl:text-left lg:relative px-16 py-3 text-center">
+              class="flex flex-col items-center xl:flex-row xl:justify-center xl:text-left lg:relative md:px-16 px-0 py-3 text-justify">
               <div class="sm:text-center">
-                <p class="px-10 pb-16 text-xl italic text-[#293a40]">„Jeśli chodzi o doświadczenie klientów w naszych
-                  placówkach, potrzebowaliśmy dostawcy, który zapewni nam świetną muzykę i elastyczne formy komunikatów
+                <p class="px-10 pb-16 text-lg italic text-[#293a40]">„Jeśli chodzi o doświadczenie klientów w naszych
+                  placówkach, potrzebowaliśmy dostawcy, który zapewni nam świetną muzykę i elastyczne formy
+                  komunikatów
                   w przystępnej cenie. Muzyka jest często aktualizowana, a naszym pracownikom i klientom bardzo podoba
                   się to, co słyszą. Komunikaty wywarły pozytywny wpływ na wynik firmy, a firma Mood jest bardzo
                   responsywna. Otrzymaliśmy spójną całość – i jest on niezmiennie doskonały we wszystkich naszych
@@ -368,7 +413,7 @@
           </li>
         </ul>
       </div>
-      <div class="glide__arrows" data-glide-el="controls">
+      <div class="glide__arrows invisible md:visible" data-glide-el="controls">
         <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
           <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" id="arrow">
             <path fill-rule="evenodd"
@@ -404,6 +449,74 @@
     }).mount()
   </script>
   <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <!-- Zasoby braznowe -->
+  <div class="bg-gray-150">
+    <div class="lg:container lg:mx-auto text-center mx-10 mt-10">
+      <div class="relative">
+        <div class="flex justify-center lg:pt-20 lg:pb-10 lg:px-0 md:pt-32 md:pb-28 md:px-10 pb-10 mx-10 pt-10">
+          <div class="flex md:flex-row-reverse flex-col gap-6 w-128">
+            <!-- tekst 1 segmentu -->
+            <div class="text-left z-10 md:w-114">
+              <div class="md:text-6xl text-4xl pb-4 font-bold">
+                <h1>Zasoby branżowe</h1>
+              </div>
+              <div class="leading-7 md:text-lg text-base">
+                <p>Zapoznaj się z naszymi artykułami i białymi księgami, aby być na bieżąco z najnowszymi trendami w
+                  Customer Experience
+                </p>
+              </div>
+              <!-- przyciski -->
+              <div class="flex flex-col">
+                <a href="#_"
+                  class="relative inline-flex items-center justify-start px-6 py-3 mt-5 overflow-hidden font-medium transition-all bg-white rounded-full hover:bg-white group">
+                  <span
+                    class="w-48 h-48 rounded rotate-[-40deg] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-12 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                  <span
+                    class="relative w-full md:text-left text-center text-black transition-colors duration-300 ease-in-out group-hover:text-white">NASZE
+                    ZASOBY</span>
+                </a>
+                <a href="#_"
+                  class="relative inline-flex items-center justify-start px-6 py-3 mt-5 overflow-hidden font-medium transition-all bg-white rounded-full hover:bg-white group">
+                  <span
+                    class="w-48 h-48 rounded rotate-[-40deg] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 md:ml-12 ml-14 md:group-hover:ml-0 group-hover:ml-2 group-hover:mb-32 group-hover:translate-x-0"></span>
+                  <span
+                    class="relative w-full md:text-left text-center text-black transition-colors duration-300 ease-in-out group-hover:text-white">STUDIA
+                    PRZYPADKÓW</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <img decoding="async" width="500" height="504"
+                src="https://moodmedia.com/wp-content/uploads/2021/11/resource-home-m.jpg" alt=""
+                title="resource-home-m"
+                srcset="https://moodmedia.com/wp-content/uploads/2021/11/resource-home-m.jpg 500w, https://moodmedia.com/wp-content/uploads/2021/11/resource-home-m-480x484.jpg 480w"
+                sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 500px, 100vw"
+                class="wp-image-116841 lg:pt-0 pt-8 scale-105 mr-28 pb-10" loading="lazy" fetchpriority="low">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Twoja podróż zaczyna się tutaj -->
+  <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+    <div class="flex flex-col text-center px-10 py-20">
+      <h1 class="md:text-5xl text-4xl font-bold pb-5 text-white">Twoja podróż zaczyna się tutaj</h1>
+      <a href="#_"
+        class="relative inline-flex items-center justify-center p-4 px-6 py-3 xl:mx-96 my-3 mx-10 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 borderwhite rounded-full shadow-md group">
+        <span
+          class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-transparent group-hover:translate-x-0 ease">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+          </svg>
+        </span>
+        <span
+          class="absolute flex items-center justify-center w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease">DOWIEDZ
+          SIĘ WIĘCEJ</span>
+        <span class="relative invisible">Button Text</span>
+      </a>
+    </div>
+  </div>
   <!-- Foooter -->
   <section class="bg-white">
     <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
