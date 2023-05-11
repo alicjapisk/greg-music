@@ -13,6 +13,18 @@ module.exports = {
         '112': '28rem',
         '114': '43rem',
       },
+      colors:{
+        'gray-150': '#eeeeee',
+      },
+      padding: {
+        '500': '600px',
+      },
+      height: () => ({
+        '15': '3.75rem',
+        '480': '30rem',
+        '640': '40rem',
+        '444': '27.75rem',
+    }),
     },
   },
   plugins: []
